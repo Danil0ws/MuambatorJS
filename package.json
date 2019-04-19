@@ -1,7 +1,7 @@
 {
   "name": "MuambatorJS",
   "version": "1.0.0",
-  "description": "Projeto MuambatorJS é um mudelo que em Nodejs para conectar via api no site https://muambator.com.br",
+  "description": "O MuambatorJS é projeto de um modelo que trabalha Nodejs para conectar via api no site https://muambator.com.br/",
   "main": "./lib/index.js",
   "bin": {
     "MuambatorJS": "bin/muambatorjs.js"

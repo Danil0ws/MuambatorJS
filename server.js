@@ -2,22 +2,20 @@ const MuambatorJS = require('./bin/muambatorjs.js');
 
 const muambator = new MuambatorJS();
 
-muambator.ApiToken('257270d70e9d7796196b7671ba8a639f6ef08bf0');
-
+muambator.ApiToken('API-TOKEN');
 
 // Adicionar Pacotes
-
-var pacotes = {
-	"nome": nuul,
-	"emails": [],
-	"tags": [],
-	"categoria": nuul,
-	"cep_origem": nuul,
-	"cep_destino": nuul,
-	"data_previsao_entrega": nuul,
-	"valor": 0
+let pacotes = {
+	"nome": nuul, // string
+	"emails": [], // list
+	"tags": [], // list
+	"categoria": nuul, // string (id válido de categoria)
+	"cep_origem": nuul, // string (99.999-999)
+	"cep_destino": nuul, // string (99.999-999)
+	"data_previsao_entrega": nuul, // date (yyyy-mm-dd)
+	"valor": 0 // float
 }
-muambator.AdicionarPacotes('OG960225249BR', {pacotes})
+muambator.AdicionarPacotes('CODIGO-DE-RASTREIO', {pacotes})
 	.then(function (response) {
     	console.log(response);
   	})
@@ -25,10 +23,8 @@ muambator.AdicionarPacotes('OG960225249BR', {pacotes})
     	console.log(error);
   	});
 
-
 // Buscar Pacotes
-
-muambator.BuscarPacotes('OG959106947BR')
+muambator.BuscarPacotes('CODIGO-DE-RASTREIO')
 	.then(function (response) {
     	console.log(response.data);
   	})
@@ -37,8 +33,7 @@ muambator.BuscarPacotes('OG959106947BR')
   	});
  
  // Deletar Pacotes
-
-muambator.DeletarPacotes('OG960225249BR')
+muambator.DeletarPacotes('CODIGO-DE-RASTREIO')
 	.then(function (response) {
     	console.log(response);
   	})
@@ -48,7 +43,6 @@ muambator.DeletarPacotes('OG960225249BR')
  
 
 // Buscar Categorias
-
 muambator.BuscarCategorias()
 	.then(function (response) {
     	console.log(response.data);
@@ -57,9 +51,7 @@ muambator.BuscarCategorias()
     	console.log(error);
   	});
 
-
 // Listagem De Pacotes Atrasados
-
 muambator.ListagemDePacotesAtrasados()
 	.then(function (response) {
     	console.log(response.data);
@@ -69,7 +61,6 @@ muambator.ListagemDePacotesAtrasados()
   	});
 
 // Listagem De Pacotes Entregue
-
 muambator.ListagemDePacotesEntregue()
 	.then(function (response) {
     	console.log(response.data);
@@ -79,7 +70,6 @@ muambator.ListagemDePacotesEntregue()
   	});
 
 // Listagem De Pacotes Pentendes
-
 muambator.ListagemDePacotesPentendes()
 	.then(function (response) {
     	console.log(response.data);
@@ -89,7 +79,6 @@ muambator.ListagemDePacotesPentendes()
   	});
 
 // Listagem De Pacotes Tributados
-
 muambator.ListagemDePacotesTributados()
 	.then(function (response) {
     	console.log(response.data);
@@ -99,7 +88,6 @@ muambator.ListagemDePacotesTributados()
   	});
 
 // Listagem De Pacotes
-
 muambator.ListagemDePacotes()
 	.then(function (response) {
     	console.log(response.data);
