@@ -1,6 +1,6 @@
 {
-  "name": "MuambatorJS",
-  "version": "1.0.0",
+  "name": "muambatorjs",
+  "version": "1.2.1",
   "description": "O MuambatorJS é projeto de um modelo que trabalha Nodejs para conectar via api no site https://muambator.com.br/",
   "main": "./lib/index.js",
   "bin": {
@@ -8,19 +8,32 @@
   },
   "keywords": [
     "muambator",
+    "muambatorjs",
     "node.js",
+    "api",
+    "rastreamento",
+    "rastrear",
+    "encomenda",
+    "correios",
+    "tracking",
     "npm"
   ],
   "author": " Danilo Rodrigues",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mydanilows/MuambatorJS/issues"
+  },
   "scripts": {
     "start": "server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && node server.js"
   },
-  "preferGlobal": "true",
+  "homepage": "https://github.com/mydanilows/MuambatorJS#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mydanilows/MuambatorJS.git"
+  },
+  "private": false,
   "dependencies": {
-    "axios": "^0.18.0",
-    "commander": "*",
-    "consign": "^0.1.6"
+    "axios": "^0.18.0"
   }
 }
