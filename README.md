@@ -1,5 +1,16 @@
 <h1 align="center">MuambatorJS v1.2.1</h1>
 
+<p align="center">
+  <a href="https://npm-stat.com/charts.html?package=muambatorjs">
+    <img src="https://img.shields.io/npm/dm/muambatorjs.svg">
+  </a>
+  <a href="https://coveralls.io/github/filipedeschamps/muambatorjs?branch=master">
+    <img src="https://coveralls.io/repos/github/filipedeschamps/muambatorjs/badge.svg?branch=master">
+  </a>
+  <a href="https://www.npmjs.com/package/muambatorjs">
+    <img src="https://badge.fury.io/js/muambatorjs.svg">
+  </a>
+</p>
 
 <p align="center">
   O MuambatorJS é projeto de um modelo que trabalha Node.js para conectar via api no site (Node.js e Browser) https://muambator.com.br/
@@ -11,6 +22,7 @@
 
 ### Gerar Token muambator
 *Você vai precisa de um token api para funcionar*
+
 Integração de cadastro, busca, listagem e gerenciamento diretamente do seu site com o Muambator. Possui um time de desenvolvimento e quer controlar como se conectar ao sistema.
 [Gerar Token](https://www.muambator.com.br/contato/)
 
