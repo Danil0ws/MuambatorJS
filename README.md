@@ -4,8 +4,8 @@
   <a href="https://npm-stat.com/charts.html?package=muambatorjs">
     <img src="https://img.shields.io/npm/dm/muambatorjs.svg">
   </a>
-  <a href="https://coveralls.io/github/filipedeschamps/muambatorjs?branch=master">
-    <img src="https://coveralls.io/repos/github/filipedeschamps/muambatorjs/badge.svg?branch=master">
+  <a href="https://coveralls.io/github/mydanilows/MuambatorJS?branch=master">
+    <img src="https://coveralls.io/repos/github/mydanilows/MuambatorJS/badge.svg?branch=master">
   </a>
   <a href="https://www.npmjs.com/package/muambatorjs">
     <img src="https://badge.fury.io/js/muambatorjs.svg">
@@ -33,7 +33,6 @@ Integração de cadastro, busca, listagem e gerenciamento diretamente do seu sit
 const MuambatorJS = require('muambatorjs');
 
 const muambator = new MuambatorJS('API-TOKEN');
-
 
 // Adicionar Pacotes
 let pacotes = {
