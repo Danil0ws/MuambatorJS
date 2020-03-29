@@ -1,6 +1,6 @@
 {
   "name": "muambatorjs",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "O MuambatorJS é projeto de um modelo que trabalha Nodejs para conectar via api no site https://muambator.com.br/",
   "main": "./lib/index.js",
   "bin": {
@@ -24,8 +24,8 @@
     "url": "https://github.com/mydanilows/MuambatorJS/issues"
   },
   "scripts": {
-    "start": "server.js",
-    "test": "standard && node server.js"
+    "start": "node index.js",
+    "test": "standard && node index.js"
   },
   "homepage": "https://github.com/mydanilows/MuambatorJS#readme",
   "repository": {

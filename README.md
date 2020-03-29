@@ -1,11 +1,11 @@
-<h1 align="center">MuambatorJS v1.2.1</h1>
+<h1 align="center">MuambatorJS</h1>
 
 <p align="center">
   <a href="https://npm-stat.com/charts.html?package=muambatorjs">
     <img src="https://img.shields.io/npm/dm/muambatorjs.svg">
   </a>
-  <a href="https://coveralls.io/github/filipedeschamps/muambatorjs?branch=master">
-    <img src="https://coveralls.io/repos/github/filipedeschamps/muambatorjs/badge.svg?branch=master">
+  <a href="https://coveralls.io/github/mydanilows/muambatorjs?branch=master">
+    <img src="https://coveralls.io/repos/github/mydanilows/muambatorjs/badge.svg?branch=master">
   </a>
   <a href="https://www.npmjs.com/package/muambatorjs">
     <img src="https://badge.fury.io/js/muambatorjs.svg">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  O MuambatorJS é projeto de um modelo que trabalha Node.js para conectar via api no site (Node.js e Browser) https://muambator.com.br/
+  O MuambatorJS é projeto de um modelo que trabalha Node.js para conectar via api (Node.js e Browser) no site https://muambator.com.br/
 </p>
 
 ## Recursos
